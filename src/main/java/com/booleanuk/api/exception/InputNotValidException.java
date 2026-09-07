@@ -1,0 +1,7 @@
+package com.booleanuk.api.exception;
+
+public class InputNotValidException extends RuntimeException{
+	public InputNotValidException(String message){
+		super(message);
+	}
+}
